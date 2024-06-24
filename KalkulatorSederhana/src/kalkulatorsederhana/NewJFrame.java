@@ -38,7 +38,7 @@ public class NewJFrame extends javax.swing.JFrame {
                 break;
                 
             case 5:
-                ans= num / 100;
+                ans= num / Double.parseDouble(tampil1.getText());
                 tampil1.setText(Double.toString(ans));
                 break;
         }
